@@ -197,14 +197,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Icons by [Lucide](https://lucide.dev/)
 - Test API by [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+- Scripted by @SYOP200
 - Inspired by Postman, Insomnia, and other API clients
 
 ---
 
 ## 📧 Contact
 
-Project Link: [https://github.com/yourusername/api-tester](https://github.com/yourusername/api-tester)
-
+Project Link: [https://github.com/SYOP200/api-tester](https://github.com/SYOP200/api-tester)
+Email: Finnwhiskey@gmail.com
 ---
 
 <div align="center">
