@@ -111,6 +111,14 @@ export default function APITester() {
         size: new Blob([typeof data === 'string' ? data : JSON.stringify(data)]).size,
         data: typeof data === 'string' ? data : JSON.stringify(data, null, 2),
         headers: Object.fromEntries(res.headers.entries())
+      }
+      setResponse({
+        status: res.status,
+        statusText: res.statusText,
+        time: endTime - startTime,
+        size: new Blob([typeof data === 'string' ? data : JSON.stringify(data)]).size,
+        data: typeof data === 'string' ? data : JSON.stringify(data, null, 2),
+        headers: Object.fromEntries(res.headers.entries())
       });
     } catch (err) {
       setResponse({
@@ -403,6 +411,7 @@ export default function APITester() {
                 )}
 
                 {/* Body Tab */}
+                {/* Made by SYOP200 */}
                 {activeTab === 'body' && (
                   <div>
                     {['POST', 'PUT', 'PATCH'].includes(method) ? (
